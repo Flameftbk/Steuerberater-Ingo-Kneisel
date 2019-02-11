@@ -1,5 +1,7 @@
 {
   "name": "Ingo-Kneisel",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
