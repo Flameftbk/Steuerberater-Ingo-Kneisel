@@ -7,9 +7,10 @@
 </ion-header>
 
 <ion-content no-padding>
+    <div class="padding-xl">
     <ion-card class="welcome-card hidden-xs">
         <ion-card-header>
-          <ion-card-title>Wir versorgen Sie mit allem, was Sie für ein gut funktionierendes Unternehmen benötigen...</ion-card-title>
+          <ion-card-title>Wir versorgen Sie mit allem, was Sie für ein gut funktionierendes Unternehmen benötigen!</ion-card-title>
         </ion-card-header>
         <ion-card-content>
           <p>Unser Dienstleistungsangebot ist so umfangreich, dass wir es uns erlaubt haben, nur einen kleinen, überschaubaren Abriss für Sie zusammenzustellen.</p>
@@ -17,48 +18,58 @@
           <p><strong>Bitte sprechen Sie uns gerne dazu an.</strong></p>
         </ion-card-content>
     </ion-card>
+    <ion-card class="welcome-card hidden-lg">
+        <ion-card-header>
+          <ion-card-title color="primary">Dienstleistungen</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Wir versorgen Sie mit allem, was Sie für ein gut funktionierendes Unternehmen benötigen!</p>
+          <p><strong>Bitte sprechen Sie uns gerne dazu an.</strong></p>
+        </ion-card-content>
+      </ion-card>
   <ion-grid>
     <ion-row>
-        <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+        <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
             <ion-card>
+              <ion-img src="../../assets/accounting.jpg"></ion-img>
               <ion-card-header>
                 <ion-card-title color="primary">Rechnungswesen</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                <p>Steuerliche Würdigung aller Belege, Erfassung Ihrer Buchhaltung, Erstellung der Umsatzsteuervoranmeldung, uvm.</p>
               </ion-card-content>
             </ion-card>
       </ion-col>
-      <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+      <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
             <ion-card>
+              <ion-img src="../../assets/payroll.jpeg"></ion-img>
               <ion-card-header>
                 <ion-card-title color="primary">Lohnbuchhaltung</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                <p>Einrichten Ihrer Lohnbuchführung, Erstellung der Lohn-/Gehaltsabrechnung, Datenaustausch mit Behörden, uvm.</p>
               </ion-card-content>
             </ion-card>
       </ion-col>
-      <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+      <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
             <ion-card>
+              <ion-img src="../../assets/abschluss.jpeg"></ion-img>
               <ion-card-header>
                 <ion-card-title color="primary">Abschlussarbeiten</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                <p>Erstellung Ihres Jahresabschlusses, Prüfung Ihres Jahresabschlusses, Erstellung Ihrer Steuererklärung, uvm.</p>
               </ion-card-content>
             </ion-card>
       </ion-col>
-      <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6" class="margin-bottom">
+      <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6" class="margin-bottom">
             <ion-card>
+              <ion-img src="../../assets/taxadvisory.jpeg"></ion-img>
               <ion-card-header>
                 <ion-card-title color="primary">Steuerliche Beratung</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                <p>Interessenvertretung, Erstellung von Vergleichsanalysen, Führung von Verfahren vor den Finanzgerichten, uvm.</p>
               </ion-card-content>
             </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
+  </div>
 </ion-content>

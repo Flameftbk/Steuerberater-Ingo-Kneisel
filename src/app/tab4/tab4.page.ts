@@ -24,7 +24,7 @@ export class Tab4Page implements OnInit {
     this.map = new google.maps.Map(this.gmapElement.nativeElement, mapProp);
     this.marker = new google.maps.Marker({
       map: this.map,
-      draggable: true,
+      draggable: false,
       animation: google.maps.Animation.DROP,
       position: {lat: 52.0122184, lng: 8.5982909}
     });

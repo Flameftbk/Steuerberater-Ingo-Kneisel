@@ -20,8 +20,13 @@ ion-grid {
 }
 
 ion-img {
-    max-width: 640px;
+    max-width: 680px;
     max-height: 460px;
+}
+
+ion-avatar {
+    height: 64px;
+    width: 64px;
 }
 
 ion-card {
@@ -62,7 +67,7 @@ ion-text {
         display:none;
     }
     .margin-bottom {
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
     ion-grid ion-card {
         margin-top: 24px!important;
@@ -75,6 +80,41 @@ ion-text {
 @media screen and (min-width: 768px) {
     .hidden-lg {
         display:none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .padding-xl {
+        padding-left: 7%!important;
+        padding-right: 7%!important;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .padding-xl {
+        padding-left: 12%!important;
+        padding-right: 12%!important;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    .padding-xl {
+        padding-left: 14%!important;
+        padding-right: 14%!important;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .padding-xl {
+        padding-left: 21%!important;
+        padding-right: 21%!important;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .padding-xl {
+        padding-left: 22%!important;
+        padding-right: 22%!important;
     }
 }
 

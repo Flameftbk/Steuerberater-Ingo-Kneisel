@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-icon class="arrow-back" size="large" color="primary" name="arrow-back" (click)="goBack()"></ion-icon>
+      <ion-title color="primary">Partner</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="padding-xl">
+    <ion-card class="welcome-card hidden-xs">
+        <ion-card-header>
+          <ion-card-title>Unsere Partner</ion-card-title>
+          <ion-card-subtitle color="primary">Links zu unseren Partnern</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Bitte informieren Sie sich auch auf den unten stehenden Seiten über Themen des Steuer- und Wirtschaftsrechts bzw. über weitere Institutionen, mit dem unser Büro zusammenarbeitet.</p>
+          <p>Rundschreiben, Anwendungs- bzw. Nichtanwendungserlasse des Bundesfinanzministeriums finden Sie auf der Seite des Bundesministeriums der Finanzen.</p>
+          <p>Die aktuellsten Gesetzestexte finden Sie z. B. auf der Seite des Bundesministeriums der Justiz.</p>
+        </ion-card-content>
+    </ion-card>
+    <ion-card class="welcome-card hidden-lg">
+        <ion-card-header>
+          <ion-card-title color="primary">Unsere Partner</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>Bitte informieren Sie sich auch auf den unten stehenden Seiten über Themen des Steuer- und Wirtschaftsrechts bzw. über weitere Institutionen, mit dem unser Büro zusammenarbeitet.</p>
+        </ion-card-content>
+      </ion-card>
+    <ion-grid>
+        <ion-row>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+            <ion-card (click)="goToKammer()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>Steuerberaterkammer</ion-card-title>
+                <ion-card-subtitle color="primary">Westfalen-Lippe</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+            <ion-card (click)="goToDatev()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>DATEV</ion-card-title>
+                <ion-card-subtitle color="primary">Unser Rechenzentrum</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+            <ion-card (click)="goToVerband()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>Steuerberaterverband</ion-card-title>
+                <ion-card-subtitle color="primary">Westfalen-Lippe</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+            <ion-card (click)="goToWPK()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>Wirtschaftsprüferkammer</ion-card-title>
+                <ion-card-subtitle color="primary">Körperschaft öffentlichen Rechts</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
+            <ion-card (click)="goToBMF()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>Bundesfinanzministerium</ion-card-title>
+                <ion-card-subtitle color="primary">Bundesministerium der Finanzen</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6" class="margin-bottom">
+            <ion-card (click)="goToBFH()">
+              <ion-card-header>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <ion-card-title>Bundesfinanzhof</ion-card-title>
+                <ion-card-subtitle color="primary">Oberster Gerichtshof des Bundes für Steuern</ion-card-subtitle>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      </div>
+</ion-content>

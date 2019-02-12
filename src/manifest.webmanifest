@@ -1,7 +1,7 @@
 {
-  "name": "app",
-  "short_name": "app",
-  "theme_color": "#1976d2",
+  "name": "Ingo Kneisel",
+  "short_name": "IK",
+  "theme_color": "#880807",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
