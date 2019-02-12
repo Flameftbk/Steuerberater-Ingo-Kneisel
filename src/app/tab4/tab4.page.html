@@ -1,9 +1,57 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>tab4</ion-title>
+    <ion-title color="primary">INGO KNEISEL</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+    <ion-card class="hidden-xs">
+      <ion-card-header>
+        <ion-card-title color="primary">Kontakt</ion-card-title>
+      </ion-card-header>
+      <ion-card-content class="contact">
+      </ion-card-content>
+    </ion-card>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Steuerberater Ingo Kneisel</ion-card-title>
+                <ion-card-subtitle color="primary">Steuerberater, vereidigter Buchprüfer</ion-card-subtitle>
+              </ion-card-header>
+              <ion-card-content class="contact">
+                <p>Potsdamer Str. 148a</p>
+                <p>33719 Bielefeld</p>
+                <br>
+                <p>Telefon: 0521 92420 - 0</p>
+                <p>Telefax: 0521 92420 - 20</p>
+                <ion-text color="primary"><a href="mailto:info@ingo-kneisel.de">info@ingo-kneisel.de</a></ion-text>
+              </ion-card-content>
+            </ion-card>
+      </ion-col>
+      <ion-col size="12" size-sm="12" size-md="12" size-lg="6" size-xl="6">
+          <ion-card>
+            <ion-card-header>
+              <ion-card-title>Öffnungszeiten</ion-card-title>
+              <ion-card-subtitle color="primary">Geöffnet Werktags</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content class="contact">
+              <p>Montag bis Donnerstag:</p>
+              <p>08:00 - 13:00 u. 14:00 - 17:00 Uhr</p>
+              <br>
+              <p>Freitag:</p>
+              <p>08:00 - 13:00 Uhr</p>
+              <ion-text><strong>Oder nach Vereinbarung</strong></ion-text>
+            </ion-card-content>
+          </ion-card>
+    </ion-col>
+    <ion-col size="12" size-sm="12" size-md="12" size-lg="12" size-xl="12" class="margin-bottom">
+        <ion-card>
+          <div #gmap style="width:100%;height:70vh"></div>
+        </ion-card>
+  </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>
