@@ -19,6 +19,10 @@ ion-grid {
     padding-bottom: 0px;
 }
 
+.clickable:hover {
+    cursor: pointer;
+}
+
 ion-img {
     max-width: 680px;
     max-height: 460px;

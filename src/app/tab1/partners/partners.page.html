@@ -1,6 +1,6 @@
 <ion-header>
     <ion-toolbar>
-      <ion-icon class="arrow-back" size="large" color="primary" name="arrow-back" (click)="goBack()"></ion-icon>
+      <ion-icon class="arrow-back clickable" size="large" color="primary" name="arrow-back" (click)="goBack()"></ion-icon>
       <ion-title color="primary">Partner</ion-title>
     </ion-toolbar>
 </ion-header>
@@ -29,7 +29,7 @@
     <ion-grid>
         <ion-row>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
-            <ion-card (click)="goToKammer()">
+            <ion-card (click)="goToKammer()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
@@ -39,7 +39,7 @@
             </ion-card>
           </ion-col>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
-            <ion-card (click)="goToDatev()">
+            <ion-card (click)="goToDatev()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
@@ -49,7 +49,7 @@
             </ion-card>
           </ion-col>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
-            <ion-card (click)="goToVerband()">
+            <ion-card (click)="goToVerband()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
@@ -59,7 +59,7 @@
             </ion-card>
           </ion-col>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
-            <ion-card (click)="goToWPK()">
+            <ion-card (click)="goToWPK()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
@@ -69,7 +69,7 @@
             </ion-card>
           </ion-col>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6">
-            <ion-card (click)="goToBMF()">
+            <ion-card (click)="goToBMF()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
@@ -79,7 +79,7 @@
             </ion-card>
           </ion-col>
           <ion-col size="12" size-sm="12" size-md="6" size-lg="6" size-xl="6" class="margin-bottom">
-            <ion-card (click)="goToBFH()">
+            <ion-card (click)="goToBFH()" class="clickable">
               <ion-card-header>
               </ion-card-header>
               <ion-card-content class="contact">
